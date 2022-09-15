@@ -3,8 +3,8 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: 'Kanit', sans-serif;
+    box-sizing: border-box;
     text-decoration: none;
 }
 
@@ -48,7 +48,7 @@ body{
 .conteudo{
     display: flex;
     justify-content: flex-start;
-    margin-top: 130px;
+    margin-top: 100px;
     padding-left: 100px;
     flex-direction: column;
 }
@@ -82,5 +82,90 @@ body{
     font-size: 15px;
     font-weight: bolder;
 }
+
+.formulario{
+    margin-top: 30px;
+}
+
+.formulario-inputs{
+    display: flex;
+    flex-direction: column;
+    height: 30px;
+    gap: 15px;
+    max-width: 250px;
+}
+
+.names{
+    display: flex;
+    gap: 40px;
+}
+
+.formulario-inputs-fname , .formulario-inputs-sname{
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    color: #13293D;
+    font-weight: bolder;
+}
+
+.logpswrd{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+
+.formulario-inputs-email, .formulario-inputs-pswrd{
+    width: 362px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    color: #13293D;
+    font-weight: bolder;
+}
+
+.btn{
+    display: flex;
+    justify-content: space-between;
+    width: 362px;
+}
+
+.btn-change{
+    height: 50px;
+    border-radius: 25px;
+    width: 165px;
+    border: none;
+    background: #247BA0;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.btn-create{
+    height: 50px;
+    border-radius: 25px;
+    width: 165px;
+    border: none;
+    background-color: #1B98E0;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 240px ;
+    padding-bottom: 40px;
+}
+
+.rodape-info{
+    color: white;
+    font-weight: bolder;
+    font-size: 12px;
+}
+
 
 
