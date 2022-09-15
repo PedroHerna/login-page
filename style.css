@@ -48,8 +48,39 @@ body{
 .conteudo{
     display: flex;
     justify-content: flex-start;
-    margin-top: 190px;
+    margin-top: 130px;
     padding-left: 100px;
     flex-direction: column;
 }
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+
+.conteudo-principal-h3{
+    color: #E8F1F2;
+    font-size: 15px;
+}
+
+.conteudo-principal-h2{
+    color: white;
+    font-size: 40px;
+}
+.conteudo-principal-h2 strong{
+    color: #1B98E0;
+}
+
+.conteudo-principal-p{
+    color: #E8F1F2;
+    font-size: 15px;
+}
+
+.conteudo-principal-p a{
+    color: #247BA0;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
 
