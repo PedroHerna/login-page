@@ -1,5 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Roboto+Condensed&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+    text-decoration: none;
 }
+
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 72%, rgba(0,212,255,1) 100%);
+    font-size: 100%;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 150px;
+    padding-top: 30px;
+    padding-left: 100px;
+}
+
+.cabecalho-logo{
+    color: white;
+}
+.cabecalho-logo strong{
+    color: #1B98E0;
+}
+
+.cabecalho-nav{
+    display: flex;
+    gap: 120px;
+}
+
+.cabecalho-opt{
+    color: #E8F1F2;
+    font-size: 18px;
+}
+
+.cabecalho-opt:hover{
+    font-size: 18.5px;
+    transition: 1s;
+}
+
+.conteudo{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 190px;
+    padding-left: 100px;
+    flex-direction: column;
+}
+
