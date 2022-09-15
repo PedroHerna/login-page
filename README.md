@@ -11,7 +11,7 @@
 
 
 ## Imagem do projeto finalizado 🖥️
-![image](https://user-images.githubusercontent.com/90341044/190322099-84a2e106-d9b6-4dfb-8d34-10b666893b11.png)
+![image](https://user-images.githubusercontent.com/90341044/190323083-03687f8b-b904-45f5-b4b4-1f7116ca89e4.png)
 
 
 ## Ideia do projeto 💡
